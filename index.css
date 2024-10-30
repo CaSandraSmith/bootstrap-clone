@@ -13,9 +13,9 @@
   background-image: url("./images/youtube-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 80%; /* Responsive width that will shrink */
-  max-width: 150px; /* Maximum width for larger screens */
-  height: 40px; /* Keeps consistent height */
+  width: 80%;
+  max-width: 150px;
+  height: 40px;
   margin: 0;
   padding: 0;
 }
@@ -81,9 +81,9 @@ p {
 }
 
 #form-button {
-    display: flex; /* Centers the icon within the button */
-    align-items: center; /* Centers vertically */
-    justify-content: center; /* Centers horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #dfe2e6;
     border-radius: 0 20px 20px 0;
     height: 100%;
@@ -120,4 +120,15 @@ p {
   text-align: center;
   line-height: 1
 }
-this
+
+.category-button {
+  white-space: nowrap;
+}
+
+.category-holder::-webkit-scrollbar {
+  display: none;
+}
+
+.category-holder {
+  scrollbar-width: none;
+}
