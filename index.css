@@ -1,0 +1,74 @@
+.navbar-holder {
+  height: 50px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+}
+
+#youtube-logo {
+  background-image: url("./images/youtube-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%; /* Responsive width that will shrink */
+  max-width: 150px; /* Maximum width for larger screens */
+  height: 40px; /* Keeps consistent height */
+  margin: 0;
+  padding: 0;
+}
+
+#home-item {
+  background-color: #f2f2f2;
+}
+
+#home-item:hover {
+    background-color: #e6e6e6;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.menu-item:hover {
+  background-color: #f2f2f2;
+}
+
+p {
+  margin: 0;
+}
+
+.fa-solid.fa-play {
+  padding-right: 7px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid.fa-lines-leaning {
+  padding-right: 5px;
+}
+
+.fa-regular.fa-lightbulb {
+    padding-right: 3px;
+}
+
+.menu-title {
+  padding: 10px;
+}
+
+.fa-brands.fa-square-youtube {
+    padding-right: 5px;
+}
+
+.fa-regular.fa-flag {
+    padding-right: 2px;
+}
