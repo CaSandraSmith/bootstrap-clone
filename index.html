@@ -169,18 +169,26 @@
           </div>
         </div>
         <div class="col-12 col-sm-9 h-100 pt-2">
-          <div class="row">
-            <div>
-              <form id="search-bar" class="w-50 d-flex">
-                <input
+          <div class="top-right-bar w-100">
+            <div class="justify-content-center align-items-center d-none d-sm-block w-100">
+              <div class="d-none d-sm-block">
+                <form id="search-bar" class="form-inline  d-flex justify-content-center align-items-center h-100">
+                  <input
                   type="text"
-                  class="form-control mb-2 mr-sm-2"
+                  class="form-control mb-2 mr-sm-2 h-100 "
                   placeholder="Search"
-                />
-                <button type="submit" class="btn mb-2">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </form>
+                  />
+                  <button id="form-button" type="submit" class="btn">
+                    <i class="fa-solid fa-magnifying-glass ps-3 pe-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="top-icons d-flex align-items-center column-gap-4 ms-auto">
+              <i class="fa-solid fa-magnifying-glass d-block d-sm-none"></i>
+              <i class="fa-solid fa-video"></i>
+              <i class="fa-regular fa-bell"></i>
+              <p>C</p>
             </div>
           </div>
           <div class="overflow-x-scroll d-flex flex-row column-gap-4">

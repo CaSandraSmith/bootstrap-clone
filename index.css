@@ -72,3 +72,51 @@ p {
 .fa-regular.fa-flag {
     padding-right: 2px;
 }
+
+#search-bar > input {
+    border-radius: 20px 0 0 20px;
+    padding-left: 15px;
+    width: 50%;
+    margin-top: 8px;
+}
+
+#form-button {
+    display: flex; /* Centers the icon within the button */
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    border: 1px solid #dfe2e6;
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+    padding: 8px 10px;
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.top-right-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-icons > i {
+  padding: 10px;
+}
+
+.top-icons :not(:last-child):hover {
+  background-color: #e5e5e5;
+  border-radius: 20px;
+}
+
+.top-icons :last-child {
+  background-color: orange;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 1
+}
