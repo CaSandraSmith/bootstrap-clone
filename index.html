@@ -168,52 +168,285 @@
             </a>
           </div>
         </div>
-        <div class="col-12 col-sm-9 h-100 pt-2">
-          <div class="top-right-bar w-100">
-            <div class="justify-content-center align-items-center d-none d-sm-block w-100">
-              <div class="d-none d-sm-block">
-                <form id="search-bar" class="form-inline  d-flex justify-content-center align-items-center h-100">
-                  <input
-                  type="text"
-                  class="form-control mb-2 mr-sm-2 h-100 "
-                  placeholder="Search"
-                  />
-                  <button id="form-button" type="submit" class="btn">
-                    <i class="fa-solid fa-magnifying-glass ps-3 pe-2"></i>
-                  </button>
-                </form>
+        <div class="col-12 col-sm-9 h-100 pt-2 vh-100">
+          <div class="sticky-top bg-white pb-3">
+            <div class="top-right-bar w-100">
+              <div
+                class="justify-content-center align-items-center d-none d-sm-block w-100"
+              >
+                <div class="d-none d-sm-block">
+                  <form
+                    id="search-bar"
+                    class="form-inline d-flex justify-content-center align-items-center h-100"
+                  >
+                    <input
+                      type="text"
+                      class="form-control mb-2 mr-sm-2 h-100"
+                      placeholder="Search"
+                    />
+                    <button id="form-button" type="submit" class="btn">
+                      <i class="fa-solid fa-magnifying-glass ps-3 pe-2"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div
+                class="top-icons d-flex align-items-center column-gap-4 ms-auto"
+              >
+                <i class="fa-solid fa-magnifying-glass d-block d-sm-none"></i>
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-regular fa-bell"></i>
+                <p>C</p>
               </div>
             </div>
-            <div class="top-icons d-flex align-items-center column-gap-4 ms-auto">
-              <i class="fa-solid fa-magnifying-glass d-block d-sm-none"></i>
-              <i class="fa-solid fa-video"></i>
-              <i class="fa-regular fa-bell"></i>
-              <p>C</p>
+            <div
+              class="category-holder overflow-x-scroll d-flex flex-row column-gap-4 mt-2 ms-2"
+            >
+              <button type="button" class="category-button btn btn-dark">
+                All
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Music
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Gaming
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Contemporary R&B
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Playlists
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Live
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                News
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Source code
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Computer programming
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Kitchens
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Techno
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                Recently uploaded
+              </button>
+              <button type="button" class="category-button btn btn-light">
+                New to you
+              </button>
             </div>
           </div>
-          <div class="category-holder overflow-x-scroll d-flex flex-row column-gap-4 mt-2 mb-3">
-            <button type="button" class="category-button btn btn-dark">All</button>
-            <button type="button" class="category-button btn btn-light">Music</button>
-            <button type="button" class="category-button btn btn-light">Gaming</button>
-            <button type="button" class="category-button btn btn-light">Contemporary R&B</button>
-            <button type="button" class="category-button btn btn-light">Playlists</button>
-            <button type="button" class="category-button btn btn-light">Live</button>
-            <button type="button" class="category-button btn btn-light">News</button>
-            <button type="button" class="category-button btn btn-light">Source code</button>
-            <button type="button" class="category-button btn btn-light">Computer programming</button>
-            <button type="button" class="category-button btn btn-light">Kitchens</button>
-            <button type="button" class="category-button btn btn-light">Techno</button>
-            <button type="button" class="category-button btn btn-light">Recently uploaded</button>
-            <button type="button" class="category-button btn btn-light">New to you</button>
-          </div>
-          <div class="container overflow-auto">
+          <div class="container overflow-y-auto" style="max-height: calc(100vh - 100px);">
             <div class="row">
-              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
                 <div class="card">
-                  <img
-                    src="images/nature.jpg"
-                    class="card-img-top img-fluid fixed-dimensions"
-                  />
+                  <img src="images/tree.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/nature.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 mb-4">
+                <div class="card">
+                  <img src="images/nature.jpg" class="card-img-top img-fluid" />
+                  <div class="card-body d-flex column-gap-2">
+                    <div class="profile-holder">
+                      <img src="images/tree.jpg" />
+                    </div>
+                    <div>
+                      <p class="card-title fw-semibold fs-5">
+                        Soothing nature sounds
+                      </p>
+                      <p class="card-text">Lofi Sounds</p>
+                      <p class="card-text">1.1M views • 3 months ago</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

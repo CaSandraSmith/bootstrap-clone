@@ -132,3 +132,14 @@ p {
 .category-holder {
   scrollbar-width: none;
 }
+
+.profile-holder > img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.card {
+  border-color: white;
+}
